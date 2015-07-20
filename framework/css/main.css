@@ -1,0 +1,58 @@
+*{
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+h2 {
+	color: #BCBBBB;
+	font-size: 200%;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+h3 {
+	color: #747704;
+	font-size: 200%;
+	font-weight: bold;
+	margin-bottom: 5px;
+	margin-top: 10px;
+}
+h4 {
+	color: #747704;
+	font-size: 125%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-weight: bold;
+}
+h5 {
+	color: #BCBBBB;
+	font-size: 75%;
+	margin-top: 5px;
+}
+
+.full-circle {
+	 background-color: rgba(204, 0, 102, 0);
+	 border: 10px solid #EF6518;
+	 height: 110px;
+	 width: 110px;
+	 -moz-border-radius:75px;
+	 -webkit-border-radius: 75px;
+	 margin-top: 20px;
+	 margin-bottom: 15px;
+}
+.udacity_logo{
+	width:90px;
+    height: auto;
+}
+.rightText{
+	text-align: right;
+}
+.mediumBorder{
+	border-style: solid;
+    border-width: 5px;
+}

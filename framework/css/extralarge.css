@@ -1,0 +1,73 @@
+h1 {
+	color: #BCBBBB;
+	font-size: 400%;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+.row{
+	width: 100%;
+	margin-bottom: 20px;
+	display: flex;
+    flex-wrap: wrap;
+	margin: 0 auto;
+    max-width: 1040px;
+}
+.thickBorder{
+	border-style: solid;
+    border-width: 10px;
+    margin-top: 15px;
+    width:1040px; 
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.alignPortfolioTitleLeft{
+	text-align: center;
+	float: left;
+}
+.alignPortfolioTitleRight{
+	text-align: center;
+	float: right;
+}
+.alignPortfolioTitleCentre{
+	text-align: center;
+}
+.col-1{
+	min-width: 8.33%;
+}
+.col-2{
+	min-width: 16.66%;
+}
+.col-3{
+	min-width: 25%;
+}
+.col-4{
+	min-width: 33.33%;
+	flex: 1;
+}
+.col-5{
+	min-width: 41.66%;
+}
+.col-6{
+	min-width: 50%;
+}
+.col-7{
+	min-width: 58.33%;
+}
+.col-8{
+	min-width: 66.66%;
+}
+.col-9{
+	min-width: 75%;
+}
+.col-10{
+	min-width: 83.33%;
+}
+.col-11{
+	min-width: 91.66%;
+}
+.col-12{
+	min-width: 100%;
+}
