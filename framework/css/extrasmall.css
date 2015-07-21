@@ -1,64 +1,87 @@
 h1 {
-	color: #BCBBBB;
-	font-size: 250%;
-	font-weight: bold;
+	color: #bcbbbb;
+	font: bold 250% 'Lato', sans-serif;
 	margin-top: 20px;
 	margin-bottom: 0px;
 }
-.row{
+
+.row {
 	width: 100%;
 	margin-bottom: 20px;
 	display: flex;
 	flex-wrap: wrap;
 	margin: 0 auto;
-    max-width: 480px;
+    max-width: 460px;
 }
-.thickBorder{
-	display: none;
+
+.thick-border {
+	border: 5px solid #000;
+    width: 320px; 
+    height: auto;
+    display: block;
+    /* in order to use shorthand all 4 values are needed, so leaving this as separate */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
 }
-.alignPortfolioTitleLeft{
+
+.align-portfolio-title-left {
 	text-align: center;
 }
-.alignPortfolioTitleRight{
+
+.align-portfolio-title-right {
 	text-align: center;
 }
-.alignPortfolioTitleCentre{
+
+.align-portfolio-title-centre {
 	text-align: center;
 }
-.col-1{
+
+.col-1 {
 	min-width: 8.33%;
 }
-.col-2{
+
+.col-2 {
 	min-width: 16.66%;
 }
-.col-3{
+
+.col-3 {
 	min-width: 25%;
 }
-.col-4{
+
+.col-4 {
 	min-width: 100%;
 	flex: 1;
 }
-.col-5{
+
+.col-5 {
 	min-width: 41.66%;
 }
-.col-6{
+
+.col-6 {
 	min-width: 50%;
 }
-.col-7{
-	min-width: 58.33%;
+
+.col-7 {
+	min-width: 53.33%;
 }
-.col-8{
-	min-width: 66.66%;
+
+.col-8 {
+	min-width: 55%;
 }
-.col-9{
-	min-width: 75%;
+
+.col-9 {
+	min-width: 60%;
 }
-.col-10{
-	min-width: 70%;
+
+.col-10 {
+	min-width: 65%;
 }
-.col-11{
+
+.col-11 {
 	min-width: 91.66%;
 }
-.col-12{
+
+.col-12 {
 	min-width: 100%;
 }
